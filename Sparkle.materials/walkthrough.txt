@@ -1,0 +1,84 @@
+Go past the hotel gate to the hiking path and meditate.
+
+EAST
+EAST
+MEDITATE
+
+
+You learn that the dog equals the flute. Turn the dog into a flute and enter the garden.
+
+WEST
+CHANGE DOG INTO FLUTE
+NORTH
+
+
+Take the flute, look in the koi pond, meditate, and turn the fish into a tornado.
+
+GET FLUTE
+EXAMINE POND
+MEDITATE
+CHANGE FISH INTO TORNADO
+
+
+Take the key and go inside the hotel. Look at the wardrobe, meditate, and turn the glove into a cantaloupe and back again. Take the glove.
+
+GET KEY
+NORTH
+EXAMINE WARDROBE
+MEDITATE
+CHANGE GLOVE INTO CANTALOUPE
+CHANGE CANTALOUPE INTO GLOVE 
+GET GLOVE
+
+
+Go upstairs in the hotel room. Take the sanitary napkin, meditate, and go downstairs.
+
+UP
+UNLOCK DOOR 102 WITH KEY
+ENTER ROOM 102
+GET SANITARY NAPKIN
+MEDITATE
+OUT
+DOWN
+
+
+Change the locked door's doorknob into an umbrella and take it. Go inside.
+
+CHANGE DOORKNOB INTO UMBRELLA
+GET UMBRELLA
+EAST
+
+
+Put the flute into the left dumbwaiter and turn it into a dog. Take the gin from the right dumbwaiter.
+
+PUT FLUTE IN LEFT DUMBWAITER
+TURN FLUTE INTO DOG
+GET GIN
+
+
+Go back to the cable car. Enter the engine room, wet the sanitary napkin with the gin and clean the generator.
+
+WEST
+SOUTH
+SOUTH
+WEST
+SOUTH
+POUR GIN ON NAPKIN
+CLEAN GENERATOR WITH SANITARY NAPKIN
+
+
+Turn the generator on, turn the sanitary napkin into a monkey wrench and free the cable car.
+
+TURN GENERATOR ON
+NORTH
+TURN SANITARY NAPKIN INTO MONKEY WRENCH
+UNSCREW BOLTS
+
+
+Enter the cable car and ride it to the mountain top. Answer "4" to the master's question.
+
+ENTER CAR
+PULL LEVER
+OUT
+4
+

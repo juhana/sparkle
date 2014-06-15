@@ -30,7 +30,10 @@ THE SOFTWARE."
 Book 2 - Changelog
 
 [
-Release 3 
+Release 4 
+ - A few instances of "us" corrected to "[us]"
+
+Release 3 (2014-06-15)
  - Fixed a bug (introduced in release 2) where examining the dog before meditating for the first time would crash the story.
  - Added a nudge to the right dumbwaiter's description saying there might be something inside.
  - Added a description of the dog being cleaner when changing the flute back after washing it.
@@ -2249,7 +2252,7 @@ Rule for writing a paragraph about the tame dog:
 	otherwise:
 		say "[one of]The dog sits here, looking at me expectantly[or]The dog is sniffing the ground[or]The dog is walking around in circles[as decreasingly likely outcomes]."
 
-The description of the dog is "The dog is big and [if the dog is angry]menacing[otherwise]looking at us wide-eyed[end if], a mutt or perhaps even a Chongqing.[if the angry dog is in the Garden] He's barking viciously behind the gates.[otherwise if the angry dog is in a dumbwaiter] [We] can still hear him barking below.[end if][if the dog is dirty] His short fur is filthy and largely covered in dirt.[otherwise] His fur looks, if not perfectly clean, at least much cleaner than what it used to be.[end if]"
+The description of the dog is "The dog is big and [if the dog is angry]menacing[otherwise]looking at [us] wide-eyed[end if], a mutt or perhaps even a Chongqing.[if the angry dog is in the Garden] He's barking viciously behind the gates.[otherwise if the angry dog is in a dumbwaiter] [We] can still hear him barking below.[end if][if the dog is dirty] His short fur is filthy and largely covered in dirt.[otherwise] His fur looks, if not perfectly clean, at least much cleaner than what it used to be.[end if]"
 
 The dog equals the flute. 
 
@@ -2393,7 +2396,7 @@ Instead of throwing the sausage at the dog:
 To feed the dog:
 	say line break;
 	if the player can see the dog:
-		say "The dog's mood seems to change. He doesn't bark anymore and looks at us, panting.";
+		say "The dog's mood seems to change. He doesn't bark anymore and looks at [us], panting.";
 	otherwise:
 		say "[We] can't hear the dog barking anymore. Maybe he found the sausage?"; [* Actually I don't think there can ever be a situation where this message would be displayed.]
 	now the dog is satisfied;
@@ -2548,7 +2551,7 @@ After changing the flute into the lipsticked dog for the first time: [* If the f
 He has lipstick messily smeared all over its nose. [We] allow [ourselves] to smile briefly at the sight."
 
 After changing the flute into the tame dog for the first time:
-	say "[We] change the flute back into the dog. The dog looks a bit confused for a moment, but then [if the dog is in the holder of the player]walks calmly to [us] and starts to lick [our] hand[otherwise]sits down and starts looking at us, panting[end if]." [* "In the holder of the player" basically means that the dog must be directly in the same space as the player. This is to change the response if the dog is in the dumbwaiter or behind the gate and can't "walk calmly to us".]
+	say "[We] change the flute back into the dog. The dog looks a bit confused for a moment, but then [if the dog is in the holder of the player]walks calmly to [us] and starts to lick [our] hand[otherwise]sits down and starts looking at [us], panting[end if]." [* "In the holder of the player" basically means that the dog must be directly in the same space as the player. This is to change the response if the dog is in the dumbwaiter or behind the gate and can't "walk calmly to us".]
 	
 After changing the flute into the tame dog:
 	say "The flute sparkles and changes back into the dog[first time]. The dog doesn't look like it realized what happened[only]."

@@ -31,7 +31,7 @@ Book 2 - Changelog
 
 [
 Release 4 
- - A few instances of "us" and "me" corrected to "[us]" and "[me]"
+ - A few instances of "us" and "me" corrected to "[us]"
 
 Release 3 (2014-06-15)
  - Fixed a bug (introduced in release 2) where examining the dog before meditating for the first time would crash the story.

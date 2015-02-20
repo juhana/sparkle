@@ -587,7 +587,7 @@ memory	check
 
 'I seek the truth, shifu.'
 
-She hit me on the fingers with the head of her cane, like many times before.
+She hit [us] on the fingers with the head of her cane, like many times before.
 
 'You say you seek the truth, but only lies come out your own mouth. What do you seek?'"	the first memory rule
 "'What do you seek?'
@@ -2250,7 +2250,7 @@ Rule for writing a paragraph about the tame dog:
 	if the player is in the cable car and the dog is in the Cable-car platform:
 		say "Through the cable car's window [we] can see the dog on the platform.";
 	otherwise:
-		say "[one of]The dog sits here, looking at me expectantly[or]The dog is sniffing the ground[or]The dog is walking around in circles[as decreasingly likely outcomes]."
+		say "[one of]The dog sits here, looking at [us] expectantly[or]The dog is sniffing the ground[or]The dog is walking around in circles[as decreasingly likely outcomes]."
 
 The description of the dog is "The dog is big and [if the dog is angry]menacing[otherwise]looking at [us] wide-eyed[end if], a mutt or perhaps even a Chongqing.[if the angry dog is in the Garden] He's barking viciously behind the gates.[otherwise if the angry dog is in a dumbwaiter] [We] can still hear him barking below.[end if][if the dog is dirty] His short fur is filthy and largely covered in dirt.[otherwise] His fur looks, if not perfectly clean, at least much cleaner than what it used to be.[end if]"
 
@@ -2325,7 +2325,7 @@ After touching the tame dog:
 	say "Good boy." 
 	
 Check washing the dirty dog with:
-	say "It would be a lot of work to wash the dog[if the dog is angry] and he wouldn't let me do it anyway[end if]. [We] need to find another way if [we] want it cleaned." instead.
+	say "It would be a lot of work to wash the dog[if the dog is angry] and he wouldn't let [us] do it anyway[end if]. [We] need to find another way if [we] want it cleaned." instead.
 	
 Check eating the dog:
 	say "That's racist." instead.
